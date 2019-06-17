@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bigDiv">
+        <div class="content">
+            <div class="rows">
+                <p>Name: </p>
+                <input type="text" class="style-inp inp-1">
+            </div>
+            <div class="rows">
+                <p> Age: </p>
+                <input type="text" class="style-inp inp-2">
+            </div>
+            <div class="rows">
+                <p> Email: </p>
+                <input type="text" class="style-inp inp-3">
+            </div>
+            <div class="rows">
+                <p> Password: </p>
+                <input type="password" class="style-inp inp-4">
+            </div>
+            <div class="rows">
+                <p> Confirm password: </p>
+                <input type="password" class="style-inp inp-5">
+            </div>
+            <form class="gender">
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+            </form>
+            <button class="ok forBtn">OK</button>
+        </div>
+    </div>
+
+    <div class="testSH">
+        <div class="questions">
+            <div class="top">
+                <p class="queTtxt">QUESTIONS</p>
+            </div>
+            <div class="bottom">
+                <!-- <p>sjdsjdskjaljdajalkdaksljkljkldjklsdjsakldjakljsdakljdklja</p> -->
+                <p id="numOfQue"></p>
+                <p id="ques"></p>
+                <form class="answers">
+                    <input type="radio" name="answer" value="answer1" id="rad-0">
+                    <p class="styleAnsTxt" id="ans-0"></p>
+                    <input type="radio" name="answer" value="answer2" id="rad-1">
+                    <p class="styleAnsTxt" id="ans-1"></p>
+                    <input type="radio" name="answer" value="answer3" id="rad-2">
+                    <p class="styleAnsTxt" id="ans-2"></p>
+                    <input type="radio" name="answer" value="answer4" id="rad-3">
+                    <p class="styleAnsTxt" id="ans-3"></p>
+                </form>
+            </div>
+            <button class="next forBtn">Next</button>
+            <button class="skip forBtn">skip</button>
+            <div class="skipList">
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
